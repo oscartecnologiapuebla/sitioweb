@@ -1,0 +1,214 @@
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+  padding: 0;
+  margin: 0;
+}
+.contenedor{
+  background-color:#fff;
+  margin: 0;
+
+}
+.fondonegro{
+  background-color: rgb(27, 28, 26);
+
+}
+p{
+  color: #fff;
+}
+.PRIMERDIV{
+background-color:rgb(14, 14, 13);
+width: 100%;
+height: 100%;
+margin: 0px;
+}
+.SEGUNDODIV{
+background-color: rgb(5, 5, 6);
+height: 100%;
+width: 100%;
+}
+div#nombreEmpresa{
+   font-weight: 900;
+   background-color:rgba(0,0,0,0.3);
+   width: 70%;
+   height: 30%;
+   font-size: 100%;
+   text-align: right;
+   color: #fff;
+   padding: 10%;
+}
+.descripcion{
+  font-weight: 700px;
+  background-color:rgba(0,0,0,0.7);
+  width: 60%;
+  height: auto;
+  font-size: 100%;
+  text-align: center;
+  color:#fff;
+}
+img{
+  opacity: 0.4;
+
+}
+header {
+  background: rgba(0,0,0,0.6);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+nav {
+  float:right; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background:rgb(56, 70, 65);
+}
+
+
+
+footer{
+  width: 100%;
+  height:300px;
+  background-image: url("img/pie2.jpg");
+}
+ footer .pie1{
+    margin: 0px;
+    padding: 100px;
+    color: rgb(235, 238, 227);
+    font-size: 150%;
+    font-weight: 900px;
+    text-align: center;
+}
+.primerdivmision{
+width: 100%;
+margin: auto;
+height:500px;
+background-color: rgb(37, 209, 40);
+margin: 10px ;
+padding: 15px;
+
+}
+.img{
+  background-color: red;
+  width: 50%;
+  height: 500px;
+  float:left;
+  background-image: url("../img/SSSSS.jpg");
+}
+.descripcion2 {
+width: 50%;
+height: 500px;
+background-color: rgb(37, 36, 42);
+float:right;
+}
+.mision{
+  padding: 10px;
+  width: 95%;
+  height: auto;
+  margin: 0;
+  color:rgb(237, 231, 245) ;
+}
+.mision h2{
+  padding: 10px;
+  font-family: "calibri", Garamond, 'Comic Sans';
+  margin: 0px;
+}
+.mision p {
+  padding: 10px;
+  margin: 10px;
+  font-size: 17px;
+  font-family: "calibri", Garamond, 'Comic Sans';
+  color:rgb(233, 243, 246,) ;
+
+}
+.VISION{
+   width: 40%;
+   height: auto;
+   float: left;
+   font-size: 20px;
+    margin: auto;
+    font-family: "calibri", Garamond, 'Comic Sans';
+  color:rgb(233, 243, 246)
+}
+ .VISIONIMG{
+  width: 50%;
+  height: 90%;
+  padding: 30px;
+
+  float:left;
+  background-image: url("../img/SSSSS.jpg");
+  background-size: 100%;
+}
+.sEGUNDOCONTENEDOR{
+  width: 100%;
+  height:500px;
+  background-color: rgb(37, 209, 40);
+  margin: 10px ;
+  padding: 15px;
+}
+
+.tercercontenedor{
+  width: 100%;
+  height:500px;
+  background-color: rgb(37, 209, 40);
+  margin: 10px ;
+  padding: 15px;
+}
+.tercervision{
+  width: 40%;
+  height: auto;
+  float: left;
+  font-size: 20px;
+   margin: auto;
+   font-family: "calibri", Garamond, 'Comic Sans';
+ color:rgb(233, 243, 246)
+
+}
+.jumbotron{
+  height:600px;
+  width: 100%;
+  background-image: url('../img/fondo3.png');
+  background-size: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    {
+  background-image: url('../img/fondo3.png');
+      }
+.conteiner{
+background: rgb(117, 244, 234);
+}
+
+.titulo{
+  color: #fff;
+}
+}
+.conteiner{
+background: rgb(117, 244, 234);
+}
+
+.titulo {
+  color: rgb(232, 242, 207);
+  text-align: center;
+  padding: 10%;
+  font-weight: 900;
+  font-size: 200%;
+}

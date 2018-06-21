@@ -1,0 +1,231 @@
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+  padding: 0;
+  margin: 0;
+}
+.contenedor{
+  background-color:#fff;
+  margin: 0;
+  width: 100%;
+  height: auto;
+
+}
+.PRIMERDIV{
+background-color:rgb(47, 48, 44);
+width: 100%;
+height: auto;
+margin: 0px;
+}
+.SEGUNDODIV{
+background-color: rgb(15, 17, 17);
+height: 100%;
+width: auto;
+}
+#cuerpo{
+  height:500px;
+  width: 100%;
+  background-image: url('../img/fondo3.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@@media only screen and (min-width: 400px) and (max-width: 767px ) {
+.cuerpo{
+  width: 400px;
+
+}
+.nombreEmpresa{
+  margin-left: 40%;
+  font-weight: 900;
+  background-color:rgba(0,0,0,0.3);
+  width: 300px;
+  height: auto;
+  font-size: 150%;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+}
+
+}
+div.nombreEmpresa{
+   margin-left: 40%;
+   font-weight: 900;
+   background-color:rgba(0,0,0,0.3);
+   width: 60%;
+   height: auto;
+   font-size: 150%;
+   text-align: center;
+   color: #fff;
+   position: absolute;
+   top: 40%;
+   left: 0%;
+
+}
+.descripcion{
+  margin-left: 30%;
+  font-weight: 700px;
+  background-color:rgba(0,0,0,0.7);
+  width: 60%;
+  height: auto;
+  font-size: 100%;
+  text-align: center;
+  color:#fff;
+  position:relative;
+  top: 60%;
+  left: 0%;
+}
+img{
+  opacity: 0.4;
+
+}
+header {
+  background: rgba(0,0,0,0.6);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+nav {
+  float:right; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background:rgb(56, 70, 65);
+}
+
+
+
+footer{
+  width: 100%;
+  height:auto;
+  background-image: url("../img/pie2.jpg");
+}
+ div .pie1{
+    margin: 0px;
+    padding: 100px;
+    color: rgb(235, 238, 227);
+    font-size: 150%;
+    font-weight: 900;
+    text-align: center;
+}
+h1{
+color: #fff;
+font-size: 100%;
+
+}
+
+h2{
+color: #fff;
+font-size: 100%;
+
+}
+.primerdivmision{
+width: 100%;
+height:500px;
+background-color:rgb(13, 11, 13);
+padding: 15px;
+
+}
+.img{
+  background-color: red;
+  width: 50%;
+  height: 500px;
+  float:left;
+  background-image: url("../img/SSSSS.jpg");
+}
+.descripcion2 {
+width: 50%;
+height: 500px;
+float:right;
+color: rgb(232, 241, 231);
+}
+.mision{
+  padding: 10px;
+  width: 95%;
+  height: auto;
+  margin: 0;
+  color:rgb(13, 11, 13) ;
+}
+.mision h2{
+  padding: 10px;
+  font-family: "calibri", Garamond, 'Comic Sans';
+  margin: 0px;
+}
+.mision p {
+  padding: 10px;
+  font-size: 100%;
+  font-family: "calibri", Garamond, 'Comic Sans';
+  color:rgb(233, 243, 246,) ;
+
+}
+.VISION{
+   width: 40%;
+   height: auto;
+   float: left;
+   font-size: 100%;
+    margin: auto;
+    font-family: "calibri", Garamond, 'Comic Sans';
+  color:rgb(233, 243, 246);
+}
+ .VISIONIMG{
+  width: 50%;
+  height: 90%;
+  padding: 30px;
+
+  float:left;
+  background-image: url("../img/SSSSS.jpg");
+  background-size: 100%;
+}
+.sEGUNDOCONTENEDOR{
+  width: 100%;
+  height:500px;
+  background-color: rgb(13, 11, 13);
+
+  padding: 15px;
+}
+
+.tercercontenedor{
+  width: 100%;
+  height:500px;
+  background-color:rgb(16, 15, 17);
+
+  padding: 15px;
+}
+.tercervision{
+  width: 40%;
+  height: auto;
+  float: left;
+  font-size: 100%;
+   margin: auto;
+   font-family: "calibri", Garamond, 'Comic Sans';
+ color:rgb(233, 243, 246)
+
+}
+.terceraimg{
+  width: 50%;
+  height: 90%;
+  padding: 30px;
+  float:left;
+  background-image: url("../img/SSSSS.jpg");
+  background-size: 100%;
+
+}
