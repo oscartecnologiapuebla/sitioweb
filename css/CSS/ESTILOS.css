@@ -78,6 +78,11 @@ nav ul li a {
   text-decoration: none;
 }
 
+h1{
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+}
 nav ul li:hover {
   background:rgb(56, 70, 65);
 }
@@ -211,4 +216,8 @@ background: rgb(117, 244, 234);
   padding: 10%;
   font-weight: 900;
   font-size: 200%;
+}
+.conteiner{
+  background-image: url('../img/fondo3.jpg');
+  height: auto;width: 100%;
 }
