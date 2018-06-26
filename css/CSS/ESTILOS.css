@@ -206,9 +206,6 @@ background: rgb(117, 244, 234);
   color: #fff;
 }
 }
-.conteiner{
-background: rgb(117, 244, 234);
-}
 
 .titulo {
   color: rgb(232, 242, 207);
@@ -216,8 +213,4 @@ background: rgb(117, 244, 234);
   padding: 10%;
   font-weight: 900;
   font-size: 200%;
-}
-.conteiner{
-  background-image: url('../img/fondo3.jpg');
-  height: auto;width: 100%;
 }
